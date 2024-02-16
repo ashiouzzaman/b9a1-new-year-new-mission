@@ -1,5 +1,38 @@
 /* Global styles */
 
-*{
+* {
     margin: 0;
+    font-family: "Merriweather", serif;
+}
+
+/* Header */
+
+header {
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+.new-year {
+    background-image:linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(images/Banner\ Image.png);
+    border-radius: 16px;
+    margin: 50px 140px 120px 140px;
+    border-radius: 16px;
+    height: 600px;
+    text-align: center;
+
+}
+
+.new-year h4 {
+    padding-top: 177px;
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.new-year h1 {
+    color: #FFF;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+    /* 131.944% */
 }
