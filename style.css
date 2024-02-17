@@ -223,7 +223,7 @@ footer {
 }
 
 .about-contact-container {
-    padding: 120px 140px;
+    padding: 120px 140px 0 140px;
 }
 
 .about-contact {
@@ -267,7 +267,18 @@ footer {
     width: 24px;
     margin: auto 0;
 }
-.about-contact-container hr{
+.hr-lines{
     border: 1px solid rgba(255, 255, 255, 0.15);
     margin: 48px 0 ;
+}
+
+
+/* Social link section */
+.social-link-container{
+    text-align: center;
+    padding: 0 140px 50px 140px;
+}
+.social-link img{
+    gap: 24px;
+    padding-right: 24px;
 }
