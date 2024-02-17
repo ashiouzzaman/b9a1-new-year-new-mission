@@ -158,6 +158,15 @@ main {
     margin-bottom: 48px;
 }
 
+.gift-images img{
+   
+        transition: transform 0.3s ease-in-out; 
+}
+
+.gift-images img:hover{
+        transform: scale(1.2);
+}
+
 /* Newsletter */
 .newsletter-container {
     text-align: center;
