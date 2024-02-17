@@ -84,6 +84,7 @@ main {
     /* justify-content: space-between; */
     align-items: center;
     padding: 64px 124px;
+    justify-content: space-between;
 }
 
 .midnight h2 {
