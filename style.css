@@ -245,10 +245,10 @@ footer {
     display: flex;
     gap: 16px;
     color: #FFF;
-   
+
 }
 
-.contact ul li p{
+.contact ul li p {
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
@@ -262,23 +262,48 @@ footer {
     color: #FFF;
 }
 
-.contact ul li img{
+.contact ul li img {
     height: 24px;
     width: 24px;
     margin: auto 0;
 }
-.hr-lines{
+
+.hr-lines {
     border: 1px solid rgba(255, 255, 255, 0.15);
-    margin: 48px 0 ;
+    margin: 48px 0;
 }
 
 
 /* Social link section */
-.social-link-container{
+.social-link-container {
     text-align: center;
-    padding: 0 140px 50px 140px;
+    padding: 0 140px;
 }
-.social-link img{
+
+.social-link img {
     gap: 24px;
     padding-right: 24px;
+}
+
+/* Unsubscribe section */
+.unsubscribe-container {
+    padding: 0 140px 120px 140px;
+    color: #FFF;
+}
+
+.unsubscribe{
+    display: flex;
+    justify-content: space-between;
+}
+
+.unsubscribe p, button {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.unsubscribe button{
+    border: none;
+    background: none;
+    color: #FFF;
 }
