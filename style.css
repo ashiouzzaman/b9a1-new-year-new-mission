@@ -214,3 +214,60 @@ main {
     font-size: 20px;
     font-weight: 600;
 }
+
+
+/* Footer */
+
+footer {
+    background: #070211;
+}
+
+.about-contact-container {
+    padding: 120px 140px;
+}
+
+.about-contact {
+    display: flex;
+    color: #FFF;
+    justify-content: space-between;
+}
+
+.about {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    /* 166.667% */
+}
+
+.contact ul li {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+    color: #FFF;
+   
+}
+
+.contact ul li p{
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    /* 166.667% */
+}
+
+.contact ul li a {
+    font-family: Inter;
+    text-decoration: none;
+    color: #FFF;
+}
+
+.contact ul li img{
+    height: 24px;
+    width: 24px;
+    margin: auto 0;
+}
+.about-contact-container hr{
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    margin: 48px 0 ;
+}
